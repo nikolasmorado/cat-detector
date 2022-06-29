@@ -1,5 +1,5 @@
 # cat-detector
-Handheld cat detection machine.
+Handheld cat detection machine using tensorflow for the classification, and arduino for the implementation.
 
 ### Tensorflow Component
 
@@ -12,6 +12,9 @@ python3 -m venv venv
 . venv/bin/activate
 pip install requirements.txt
 ```
+
+To train the dataset, the CIFAR-10 dataset will be used, as there exists a cat label, along with many other objects. If the model returns cat,
+that can be read as true.
 
 ### Arduino Component
 

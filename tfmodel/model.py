@@ -66,3 +66,4 @@ model.fit(
     validation_data = (test_images, test_labels)
 )
 
+model.save('exported_model')

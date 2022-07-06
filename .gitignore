@@ -1,3 +1,4 @@
 tfmodel/venv
 tfmodel/venv/
 tfmodel/exported_model
+tfmodel/model.tflite
